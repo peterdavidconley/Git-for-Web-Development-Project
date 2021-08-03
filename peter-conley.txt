@@ -129,19 +129,52 @@ The universal selector *
 
     31. How do I find out what file I am in, when I am using the command line?
 
-
+pwd
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
+
+ls
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+git rm
+You have to be careful because it can delete files you don't want deleted.
+
     34. Why should I use version control? 
+
+It provides historical snapshots of your code. Makes reverting to old versions and editing code much easier.
+
     35. How often should I commit to github?
+
+About every 20 minutes.
+
     36. What is the command we would use to push our repo up to github? 
+
+git push -u origin "branch name"
+
     37. Walk me through Lambda's git flow. 
+
+    It's all outlined here: https://www.notion.so/GitFlow-step-by-step-a764163309754e23b1b9c4077b1653cc
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+
+Inline element is on a single line of text whereas a block element can take up multiple lines.
+
     2. What happens when an element is positioned absolutely? 
+
+It's positioned relative to its nearest element.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
+width: auto;
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+
+unsure
+
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+    The box model establishes the space around each element. Each element has core content, a border, padding, and a margin.
+    Flex box is a "fix" for the box model. You can make elements respect space by giving them values of percentages instead of values of pixels. 
